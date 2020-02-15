@@ -13,6 +13,7 @@
 		93CE48D923F8735600C3E1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CE48D823F8735600C3E1F2 /* Assets.xcassets */; };
 		93CE48DC23F8735600C3E1F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CE48DB23F8735600C3E1F2 /* Preview Assets.xcassets */; };
 		93CE48DF23F8735600C3E1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CE48DD23F8735600C3E1F2 /* LaunchScreen.storyboard */; };
+		93CE48E823F877F000C3E1F2 /* Farm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE48E723F877F000C3E1F2 /* Farm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		93CE48DB23F8735600C3E1F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93CE48DE23F8735600C3E1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93CE48E023F8735600C3E1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CE48E623F8752500C3E1F2 /* DataStructures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataStructures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93CE48E723F877F000C3E1F2 /* Farm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		93CE48C623F8735500C3E1F2 = {
 			isa = PBXGroup;
 			children = (
+				93CE48E623F8752500C3E1F2 /* DataStructures.playground */,
 				93CE48D123F8735500C3E1F2 /* ProjectX */,
 				93CE48D023F8735500C3E1F2 /* Products */,
 			);
@@ -63,6 +67,7 @@
 				93CE48DD23F8735600C3E1F2 /* LaunchScreen.storyboard */,
 				93CE48E023F8735600C3E1F2 /* Info.plist */,
 				93CE48DA23F8735600C3E1F2 /* Preview Content */,
+				93CE48E723F877F000C3E1F2 /* Farm.swift */,
 			);
 			path = ProjectX;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				93CE48D323F8735500C3E1F2 /* AppDelegate.swift in Sources */,
 				93CE48D523F8735500C3E1F2 /* SceneDelegate.swift in Sources */,
 				93CE48D723F8735500C3E1F2 /* ContentView.swift in Sources */,
+				93CE48E823F877F000C3E1F2 /* Farm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
