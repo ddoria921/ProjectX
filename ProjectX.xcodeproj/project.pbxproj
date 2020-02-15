@@ -28,6 +28,8 @@
 		D74157ED23F89E5200F0BE20 /* Farm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74157D423F8929800F0BE20 /* Farm.swift */; };
 		D74157EF23F8A31C00F0BE20 /* FarmPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74157EE23F8A31C00F0BE20 /* FarmPicker.swift */; };
 		D74157F023F8A31C00F0BE20 /* FarmPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74157EE23F8A31C00F0BE20 /* FarmPicker.swift */; };
+		D74157F223F8A5A800F0BE20 /* Kartky.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74157F123F8A5A800F0BE20 /* Kartky.swift */; };
+		D74157F323F8A5A800F0BE20 /* Kartky.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74157F123F8A5A800F0BE20 /* Kartky.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 		D74157E023F89E1500F0BE20 /* ProjectXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectXTests.swift; sourceTree = "<group>"; };
 		D74157E223F89E1500F0BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74157EE23F8A31C00F0BE20 /* FarmPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmPicker.swift; sourceTree = "<group>"; };
+		D74157F123F8A5A800F0BE20 /* Kartky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kartky.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				D74157D823F8930300F0BE20 /* NFTSystem.swift */,
+				D74157F123F8A5A800F0BE20 /* Kartky.swift */,
 			);
 			path = Farms;
 			sourceTree = "<group>";
@@ -267,6 +271,7 @@
 				D74157D123F8926800F0BE20 /* Crop.swift in Sources */,
 				93CE48D323F8735500C3E1F2 /* AppDelegate.swift in Sources */,
 				D74157D923F8930300F0BE20 /* NFTSystem.swift in Sources */,
+				D74157F223F8A5A800F0BE20 /* Kartky.swift in Sources */,
 				D74157CF23F8924600F0BE20 /* TimeIntervalExtensions.swift in Sources */,
 				D74157CD23F891F100F0BE20 /* Dimensions.swift in Sources */,
 				93CE48D523F8735500C3E1F2 /* SceneDelegate.swift in Sources */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74157F323F8A5A800F0BE20 /* Kartky.swift in Sources */,
 				D74157EA23F89E5200F0BE20 /* Dimensions.swift in Sources */,
 				D74157ED23F89E5200F0BE20 /* Farm.swift in Sources */,
 				D74157E823F89E5200F0BE20 /* ButterheadLettuce.swift in Sources */,

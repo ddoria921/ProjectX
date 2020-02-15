@@ -9,8 +9,17 @@
 import Foundation
 
 protocol Farm {
+    /// Name of the farm system
+    var name: String { get }
+
     /// Dimensions of the farm
     var dimensions: Dimensions { get }
+
+    /// Size of infrastructure (pipes, wood, etc)
+    var infrastructureSize: Dimensions { get }
+
+    /// Score
+    var score: Int { get }
 
     /// Crop that this farm will grow
     var crop: Crop { get }
@@ -45,5 +54,9 @@ extension Farm {
 
     func cropSites() -> Int {
         return Int(floor(usableSpace() / crop.footprint))
+    }
+
+    func usableSpace() -> Dimensions {
+        dimensions - infrastructureSize
     }
 }

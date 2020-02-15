@@ -12,17 +12,17 @@ import Foundation
  Nutrient Film Technique
  */
 class NFTSystem: Farm {
+    var name = "NFT System"
     var crop: Crop
     var dimensions: Dimensions
+    var infrastructureSize = Dimensions(width: 12, length: 16, height: 72)
+    var score: Int = 3
 
     // Costs
     let waterCost = 0.05 // Water price is negligible
     let electricityCost = 1.5 // This is a gross overestimation to be on the safe side
     let nutrientCost = 0.07 // This is calculated based on 33 plant sites per month
     let seedCost = 1.0
-
-    /// Size of infrastructure (pipes, wood, etc)
-    let infrastructureSize = Dimensions(width: 12, length: 16, height: 72)
 
     /// Initializes a farm with dimensions and crop
     /// - Parameters:
@@ -51,10 +51,6 @@ class NFTSystem: Farm {
     func operationalCost() -> Double {
         // Need water, electricity, nutrients, and seeds
         return waterCost + electricityCost + nutrientCost + seedCost
-    }
-
-    func usableSpace() -> Dimensions {
-        return dimensions - infrastructureSize
     }
     
 }
