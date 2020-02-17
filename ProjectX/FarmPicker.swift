@@ -14,7 +14,8 @@ class FarmPicker {
     /// - Parameter dimensions: the available space for the farms
     func getFarms(dimensions: Dimensions, crop: Crop) -> [Farm] {
         return [
-            NFTSystem(dimensions: dimensions, crop: crop)
+            NFTSystem(dimensions: dimensions, crop: crop),
+            KratkyMethod(dimensions: dimensions, crop: crop)
         ]
     }
 
